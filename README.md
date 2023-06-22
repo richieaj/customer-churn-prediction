@@ -97,9 +97,9 @@ Standardizing, also known as feature scaling or normalization, is crucial to ens
 
 2. It ensures that all features contribute equally to the model training process, avoiding biased results.
 
-3. It helps improve convergence and performance of many optimization algorithms.
+3. It helps improve the convergence and performance of many optimization algorithms.
 
-Hyperparameter tuning involves selecting the optimal values for the hyperparameters of a machine learning model. Hyperparameters are parameters that are set before the learning process begins and control the behavior and performance of the model. Examples of hyperparameters include the learning rate, regularization strength, number of hidden layers in a neural network, etc. 
+Hyperparameter tuning involves selecting the optimal values for the hyperparameters of a machine-learning model. Hyperparameters are parameters that are set before the learning process begins and control the behavior and performance of the model. Examples of hyperparameters include the learning rate, regularization strength, number of hidden layers in a neural network, etc. 
 
 Hyperparameter tuning is important because it allows us to fine-tune the model to achieve the best performance on the given dataset. By systematically exploring different combinations of hyperparameter values, we can optimize the model's performance, improve accuracy, reduce overfitting, and enhance generalization to new, unseen data.
 
@@ -115,7 +115,7 @@ Based on the project analysis, we compared the performance of Logistic Regressio
 
 2. Mean Squared Error (MSE):
    - Logistic Regression: The MSE for Logistic Regression was 0.188, indicating a moderate prediction error level.
-   - Random Forest: The MSE for Random Forest was 0.137, suggesting a relatively lower error than Logistic Regression.
+   - Random Forest: The MSE for Random Forest was 0.137, suggesting a lower error than Logistic Regression.
    - Random Forest performed better regarding MSE, indicating more accurate predictions and a better fit to the data.
 
 3. Better Model:
@@ -123,7 +123,7 @@ Based on the project analysis, we compared the performance of Logistic Regressio
    - Random Forest showed higher accuracy after hyperparameter tuning and a lower MSE, indicating improved performance and more accurate predictions.
    - Therefore, our project considers the Random Forest model the better model for customer segmentation.
 
-The choice of the better model depends on the specific requirements and objectives of the project. In this case, Random Forest demonstrated superior accuracy and error metrics performance, suggesting its suitability for the customer segmentation task. However, it is important to consider other factors, such as model interpretability, computational efficiency, and business constraints, when selecting the final deployment model.
+The choice of the better model depends on the specific requirements and objectives of the project. In this case, Random Forest demonstrated superior accuracy and error metrics performance, suggesting its suitability for the customer segmentation task. However, it is essential to consider other factors, such as model interpretability, computational efficiency, and business constraints, when selecting the final deployment model.
 
 
 
